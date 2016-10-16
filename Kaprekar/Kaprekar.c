@@ -64,19 +64,20 @@ int main(){
 
 	char c[4];
 	
-	printf("Enter a character: ");
+	printf("Enter a number with <= 4 digits: ");
 	
 	scanf("%s", c);
 
+	/*
 	int i;
 	for(i=0;i<4;i++){
 		printf("%d ",c[i]);
 	}
 	printf("\n");
+	*/
 	
 	
-	
-	printf("c: %s\n",c);
+	//printf("c: %s\n",c);
 	
 	int largest = largest_digit(c);
 	
@@ -84,7 +85,7 @@ int main(){
 	
 	int descending = desc_digits(c);
 	
-	printf("descending digits of %s: %d\n",c,descending);
+	printf("descending digits: %d\n",descending);
 	
 	
 
