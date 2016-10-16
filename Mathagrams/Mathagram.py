@@ -1,3 +1,10 @@
+#	A.Woodward
+#	October 2016
+#	Mathagrams
+#	Instead of brute force I wanted to try a randomized solution solver
+#	Still might add bonuses
+#	Challenge #287 Intermediate
+
 import math
 import random
 
